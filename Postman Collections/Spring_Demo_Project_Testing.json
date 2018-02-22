@@ -28,7 +28,9 @@
             "type": "text/javascript",
             "exec": [
               "var jsonData = JSON.parse(responseBody);",
-              "tests[\"LoginErrorMessage\"] = jsonData.errorCode === 100;"
+              "tests[\"LoginErrorCode\"] = jsonData.errorCode === \"9000\";",
+              "tests[\"LoginErrorMessage\"] = jsonData.errorCode === \"Success\";",
+              ""
             ]
           }
         }
