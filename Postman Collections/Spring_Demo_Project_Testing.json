@@ -29,7 +29,7 @@
             "exec": [
               "var jsonData = JSON.parse(responseBody);",
               "tests[\"LoginErrorCode\"] = jsonData.errorCode === \"9000\";",
-              "tests[\"LoginErrorMessage\"] = jsonData.errorCode === \"Success\";",
+              "tests[\"LoginErrorMessage\"] = jsonData.errorMessage === \"Success\";",
               ""
             ]
           }
