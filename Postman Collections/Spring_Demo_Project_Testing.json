@@ -21,6 +21,18 @@
     {
       "_postman_id": "5a91e7d9-36a5-ae4b-da51-df6034477761",
       "name": "003_login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "var jsonData = JSON.parse(responseBody);",
+              "tests[\"LoginErrorMessage\"] = jsonData.errorCode == 100;"
+            ]
+          }
+        }
+      ],
       "request": {
         "method": "POST",
         "header": [
