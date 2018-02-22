@@ -1,0 +1,62 @@
+{
+  "info": {
+    "name": "Spring Demo Project Testing",
+    "_postman_id": "f2761712-b660-a51e-5078-7d2c8103ef8f",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "faed8848-7eb2-b03d-b57c-8dd329f2ed44",
+      "name": "001_Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "http://localhost:8085/demo/health",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "5a91e7d9-36a5-ae4b-da51-df6034477761",
+      "name": "003_login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"mobileNumber\":\"92511830\",\n\t\"pin\":\"4309\"\n}"
+        },
+        "url": "http://localhost:8085/demo/business/login",
+        "description": null
+      },
+      "response": []
+    },
+    {
+      "_postman_id": "b229c55c-5549-08b8-6d50-2400f6f831d7",
+      "name": "004_MakePayment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"senderMobileNumber\":\"92511830\",\n\t\"rxerMobileNumber\":\"92511831\",\n\t\"token\":\"937351\",\n\t\"amount\":\"1000\"\n}\n"
+        },
+        "url": "http://localhost:8085/demo/business/makePayment",
+        "description": null
+      },
+      "response": []
+    }
+  ]
+}
