@@ -67,7 +67,7 @@
           "mode": "raw",
           "raw": "{\n\t\"senderMobileNumber\":\"92511830\",\n\t\"rxerMobileNumber\":\"92511831\",\n\t\"token\":\"937351\",\n\t\"amount\":\"1000\"\n}\n"
         },
-        "url": "http://localhost:8085/demo/business/makePayment",
+        "url": "http://localhost:8181/demo/business/makePayment",
         "description": null
       },
       "response": []
