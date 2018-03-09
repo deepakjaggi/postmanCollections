@@ -1,8 +1,7 @@
 {
   "info": {
-    "name": "Spring Demo Project Testing",
     "_postman_id": "f2761712-b660-a51e-5078-7d2c8103ef8f",
-    "description": "",
+    "name": "Spring Demo Project Testing",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -13,8 +12,7 @@
         "method": "GET",
         "header": [],
         "body": {},
-        "url": "http://localhost:8085/demo/health",
-        "description": null
+        "url": "http://localhost:8181/demo/health"
       },
       "response": []
     },
@@ -47,8 +45,7 @@
           "mode": "raw",
           "raw": "{\n  \"mobileNumber\":\"92511832\",\n  \"pin\":\"4309\"\n}"
         },
-        "url": "http://localhost:8181/demo/business/login",
-        "description": null
+        "url": "http://localhost:8181/demo/business/login"
       },
       "response": []
     },
@@ -67,8 +64,7 @@
           "mode": "raw",
           "raw": "{\n\t\"senderMobileNumber\":\"92511830\",\n\t\"rxerMobileNumber\":\"92511831\",\n\t\"token\":\"937351\",\n\t\"amount\":\"1000\"\n}\n"
         },
-        "url": "http://localhost:8181/demo/business/makePayment",
-        "description": null
+        "url": "http://localhost:8181/demo/business/makePayment"
       },
       "response": []
     }
