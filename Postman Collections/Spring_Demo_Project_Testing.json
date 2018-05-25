@@ -62,7 +62,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"senderMobileNumber\":\"92511830\",\n\t\"rxerMobileNumber\":\"92511831\",\n\t\"token\":\"937351\",\n\t\"amount\":\"1000\"\n}\n"
+          "raw": "{\n  \"senderMobileNumber\":\"92511830\",\n  \"rxerMobileNumber\":\"92511831\",\n  \"token\":\"265733\",\n  \"amount\":\"1000\"\n}\n"
         },
         "url": "http://localhost:8181/demo/business/makePayment"
       },
